@@ -1,0 +1,106 @@
+header {
+    background-color: rgb(45, 119, 119);
+    color: white;
+    margin: 15px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header a {
+    text-decoration: none ;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: rgb(236, 236, 236);
+    border-radius: 8px;
+    width: 90%;
+    margin-bottom: 2%;
+}
+section h2{
+    text-align: center;
+}
+
+section p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+section a {
+    text-decoration: none ;
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+}
+
+article {
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8px;
+}
+
+article p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+article a {
+    text-decoration: none ;
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(93, 228, 228);
+    padding: 25px;
+    text-align: center;
+    color: brown;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.well {
+    color: rgb(45, 119, 119);
+}
+
+.img {
+    width: 300px;
+    height: auto;
+}
+
+.loloimg {
+    width: 650px;
+    height: auto;
+}
+
+.oimg {
+    width: 250px;
+    height: auto;
+}
+
+section:hover {
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+html{
+    scroll-behavior: smooth;
+}
